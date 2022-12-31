@@ -26,6 +26,14 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
+A pre-trained model is required as the backbone model for all of the models introduced in the paper. Some suggested models:
+
+- [bert-tiny](https://huggingface.co/prajjwal1/bert-tiny)
+- [bert-mini](https://huggingface.co/prajjwal1/bert-mini)
+- [bert-base-uncased](https://huggingface.co/bert-base-uncased)
+
+The downloaded pre-trained model should be put inside `base/`.
+
 ## Training
 
 To train the model, run this command:
@@ -34,8 +42,4 @@ To train the model, run this command:
 python -m train.py
 ```
 
-## Pre-trained Models
-
-- [bert-mini](https://huggingface.co/prajjwal1/bert-mini)
-- [bert-tiny](https://huggingface.co/prajjwal1/bert-tiny)
-- [bert-base-uncased](https://huggingface.co/bert-base-uncased)
+All checkpoints can be found in `domains/[DATASET NAME]/checkpoints/`.
