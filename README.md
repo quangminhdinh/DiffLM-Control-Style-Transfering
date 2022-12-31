@@ -1,6 +1,6 @@
 # Sequence-to-Sequence Continuous Diffusion Language Models for Control Style Transfering
 
-This repository is the official implementation of the models introduced in [Sequence-to-Sequence Continuous Diffusion Language Models for Control Style Transfering](https://arxiv.org/abs/2030.12345).
+This repository is the official implementation of the models introduced in [Sequence-to-Sequence Continuous Diffusion Language Models for Control Style Transfering](https://github.com/quangminhdinh/SDPE/blob/main/Sequence_to_Sequence_Continuous_Diffusion_Language_Models_for_Control_Style_Transfering.pdf).
 
 The implementation is based on the [BERT replication](https://github.com/EBGU/Diffusion-LM) of [Diffusion-LM Improves Controllable Text Generation](https://github.com/XiangLi1999/Diffusion-LM).
 
