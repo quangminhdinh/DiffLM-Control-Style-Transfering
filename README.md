@@ -43,3 +43,8 @@ python -m train.py
 ```
 
 All checkpoints can be found in `domains/[DATASET NAME]/checkpoints/`.
+
+## Contributors
+
+[![](https://avatars.githubusercontent.com/u/31373940?s=48&v=4)](https://github.com/quangminhdinh)
+[![](https://avatars.githubusercontent.com/u/76428643?s=48&v=4)](https://github.com/yuufong)
